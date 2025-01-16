@@ -2,26 +2,16 @@
 import "./app.scss"
 import Home from "./pages/home/home";
 import Login from "./pages/login/login";
-import Register from "./pages/register/register";
-import Preferences from "./pages/preferences/preferences";
 import MealTracker from "./pages/mealTracker/mealTracker";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "./utils/authentication/auth-context";
 import ROUTES from "./routes";
-import Settings from "./pages/settings/settings";
-import ReportProblem from "./pages/reportProblem/reportProblem";
-import PersonalInfo from "./pages/personalInfo/personalInfo";
 import ExerciseTracker from "./pages/exerciseTracker/exerciseTracker";
 import ExerciseInfo from "./pages/exerciseInfo/exerciseInfo";
-import OtherHealthTracker from "./pages/otherHealthTracker/otherHealthTracker";
 import FoodInfo from "./pages/foodInfo/foodInfo";
-import Menu from "./pages/menu/menu";
 import MealTrackerItem from "./pages/mealTrackerItem/mealTrackerItem";
-import SavedMenuItems from "./pages/savedMenuItems/savedMenuItems";
-import PopularMenuItems from "./pages/popular/popular";
 import LowLevelNutrition from "./pages/lowLevelNutrition/lowLevelNutrition";
-import RecommendedMenuItems from "./pages/recommendedMenuItems/recommendedMenuItems";
 import BmrInfo from "./pages/bmrInfo/bmrInfo";
 
 /**
