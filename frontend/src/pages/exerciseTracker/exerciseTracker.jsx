@@ -27,7 +27,7 @@ const ExerciseTracker = () => {
     const { user } = useContext(AuthContext);
     const userId = user._id;
 
-    /* Exercise info corresponding to input boxes */
+    /* Exercise info corresponding to input boxess */
     const [exerciseName, setExerciseName] = useState('');
     const [sets, setSets] = useState(0);
     const [reps, setReps] = useState(0);
